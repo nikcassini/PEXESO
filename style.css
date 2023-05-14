@@ -1,0 +1,37 @@
+.gameBtn {
+    transition: all ease-in-out 200ms;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.gameBtn:hover {
+    scale: 1.04;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+}
+
+.gameBtn:active {
+    background-color: whitesmoke;
+}
+
+.btn {
+    transition: all ease-in-out 240ms;
+    width: 200px;
+}
+.btn:hover {
+    color: black !important;
+    background-color: gray !important;
+}
+
+.btn-primary {
+    color: white !important;
+    background-color: black !important;
+    border: 2px solid black !important;
+}
+
+.btn-outline-primary {
+    color: black !important;
+    background-color: transparent !important;
+    border: 2px solid black !important;
+}
